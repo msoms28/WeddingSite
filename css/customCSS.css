@@ -1,0 +1,37 @@
+body,html{
+/*    margin: 0;*/
+/*    padding: 0;    */
+}
+
+div {
+/*    border: 2px solid red;*/
+}
+
+.opaque-bg{
+/*    background-color: #031940;*/
+/*    opacity: 0.3;*/
+}
+
+.reset-opacity{
+/*    opacity: 1;*/
+}
+
+#headerText{
+    font-size: 2em;
+}
+
+#headerImg{
+
+}
+
+.Story{
+       
+}
+
+.Day{
+    
+}
+
+.Party{
+    
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Wedding RSVP</title>
+</head>
+
+<body>
+    <h1>RSVP to Our Wedding!</h1>
+    <form action="/my-form-submitting-page" method="post">
+        <div>
+            <label>Number attending: 
+                <select name="attending" id="attending">
+                    <option>Guests</option>
+                    <option>0 - regretably</option>
+                    <option>1 - ridin' solo</option>
+                    <option>2 - to tango</option>
+                    <option>3 - to 3rd wheel</option>
+                    <option>4 - family package</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label for="fn">First Name: </label>
+            <input type="text" name="fn" id="fn" placeholder="John" required> 
+            <label for="ln">Last Name: </label>
+            <input type="text" name="ln" id="ln" placeholder="Smith" required>
+        </div>
+        <div>
+            Meal selection: 
+            <label for="Chicken">Chicken </label>
+            <input type="radio" name="meal" id="chicken" />
+            <label for="Steak">Steak </label>
+            <input type="radio" name="meal" id="steak" />
+            <label for="Veggie">Veggie </label>
+            <input type="radio" name="meal" id="veggie" />
+        </div>
+        <div>
+            <label for="songs">This song will get me out on the dance floor to boogie: </label>
+            <input type="text" name="songs" id="songs" required>
+        </div>
+        <div>
+            <label for="submit"></label>
+            <input type="submit" name="submit" id="submit" value="RSVP" />
+        </div>
+    </form>
+</body>
+
+</html>
