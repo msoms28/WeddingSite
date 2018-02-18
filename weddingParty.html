@@ -2,42 +2,284 @@
 <html>
 <head>
     <meta charset="UTF-8">
+ 
+    <link rel="stylesheet" href="css/customCSS.css" type="text/css"> 
+    
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.js"></script>
 
-    <title>Somers Cech Wedding</title>
+    <title>Wedding Party</title>
 </head>
-
-<body class="bg">
-    <div>
-        <h2>Wedding Party</h2>
+    
+<body>
+    <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">
+                     <svg width="75" height="75" viewBox="0 0 75 75" x="0%" y="0%">
+                        <text x="18" y="42"
+                        style="font-family: sans-serif;
+                        font-size: 36px;
+                        stroke: #e25914;
+                        fill: #e25914;
+                        overflow: visible;">
+                        C
+                        </text>
+                        <svg width="75" height="75" viewBox="0 0 75 75" x="0%" y="0%">
+                            <text x="10" y="30"
+                            style="font-family: sans-serif;
+                            font-size: 36px;
+                            stroke: #031940;
+                            fill: #031940;
+                            overflow: visible;">
+                            S
+                            </text>
+                        </svg>
+                    </svg>
+                </a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="nav navbar-nav">
+            <li><a href="ourStory.html">Our Story</a></li>
+            <li><a href="ceremonyReception.html">Wedding Day</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="weddingParty.html">Wedding Party</a></li>
+            <li><a href="registry.html">Gift Registry</a></li>
+           <!--  <li><a href="rsvp.html">RSVP Online</a></li> -->
+        </ul>
+        </div>
+    </nav>
+    
+<div>
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="/SomersCech/sunset_family_trimmed.jpg">
+                        <div class="carousel-caption" id="headerText">
+                            Cech Somers Wedding
+                        </div>
+                </div>
+            </div>
+            </div>
     </div>
+<div>
     <h3>Our Wedding Party</h3>
             <div>
                 <h3>Bridesmaids</h3>
-                    <ul>
-                        <li>Lenea Apel</li>
-                        <li>Crini Cieski</li>
-                        <li>Erin Lane</li>
-                        <li>Barb Kerr</li>
-                    </ul>
-                <img class="img-responsive" src="/SomersCech/cieskiwedding.jpg">
+                <div>
+                        <button type="button" class="btn btn-primary" data-toggle="myModal" data-target=".leneaModal">Lenea Apel</button>
+
+                        <div class="modal fade" id="leneaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Lenea</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      Something about Lenea.
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+                <div>
+                        <button type="button" class="btn btn-primary" data-toggle="myModal" data-target=".criniModal">Crini Cieski</button>
+
+                        <div class="modal fade" id="criniModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Crini</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      Something about Crini.
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+                <div>
+                        <button type="button" class="btn btn-primary" data-toggle="myModal" data-target=".erinModal">Erin Lane</button>
+
+                        <div class="modal fade" id="erinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Erin</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      Something about Erin.
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+                <div>
+                        <button type="button" class="btn btn-primary" data-toggle="myModal" data-target=".barbModal">Barb Kerr</button>
+
+                        <div class="modal fade" id="barbModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Barb</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      Something about Barb.
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                </div>
             </div>
             <div>
                 <h3>Groomsmen</h3>
-                    <ul>
-                        <li>I don't know</li>
-                        <li>TBD</li>
-                        <li>Should Get</li>
-                        <li>On That</li>
-                    </ul>
-                <img class="img-responsive" src="/SomersCech/clowning.jpg">
+                        <div>
+                                <button type="button" class="btn btn-primary" data-toggle="myModal" data-target=".benModal">Ben Sharko</button>
+
+                                <div class="modal fade" id="benModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Sharko</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                              Ben has an infectious smile and laugh.
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                        <div>
+                                <button type="button" class="btn btn-primary" data-toggle="myModal" data-target=".bradModal">Brad Keating</button>
+
+                                <div class="modal fade" id="bradModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Skeats</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                              Brad is good at making others laugh.
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                        <div>
+                                <button type="button" class="btn btn-primary" data-toggle="myModal" data-target=".colinModal">Colin Riley</button>
+
+                                <div class="modal fade" id="colinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Colin</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                              Colin has been like an older brother to me.
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                        <div>
+                                <button type="button" class="btn btn-primary" data-toggle="myModal" data-target=".danModal">Dan Short</button>
+
+                                <div class="modal fade" id="danModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Dan</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                              Something about Dan.
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                        <div>
+                                <button type="button" class="btn btn-primary" data-toggle="myModal" data-target=".frankModal">Frank Weilnhammer</button>
+
+                                <div class="modal fade" id="frankModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Frankie</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                              Frank has been there since freshman year of high school.
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
             </div>
+</div>
 </body>
 </html>
